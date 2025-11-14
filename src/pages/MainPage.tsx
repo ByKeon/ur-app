@@ -3,6 +3,7 @@ import { SectionUpcoming } from '@/pages/SectionUpcoming';
 import { SectionGetStart } from '@/pages/SectionGetStart';
 import { SectionReferral } from '@/pages/SectionReferral';
 import { SectionAmbassador } from '@/pages/SectionAmbassador';
+import { SectionDisclaimer } from './SectionDisclaimer';
 
 export function MainPage() {
   return (
@@ -16,6 +17,7 @@ export function MainPage() {
       <SectionReferral />
       <hr className="hr-line" />
       <SectionAmbassador />
+      <SectionDisclaimer />
     </div>
   );
 }

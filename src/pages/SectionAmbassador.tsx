@@ -97,7 +97,7 @@ export function SectionAmbassador() {
             'shadow'
           )}
         >
-          使用大使邀請碼(urkeon)，馬上去註冊參加活動
+          馬上使用大使邀請碼(urkeon)，來去註冊參加活動
         </a>
       </div>
     </section>
