@@ -1,19 +1,17 @@
-import HeroSection from '@/pages/HeroSection';
-import IntroSection from '@/pages/IntroSection';
-import FeaturePreview from '@/pages/FeaturePreview';
+import { SectionAlready } from '@/pages/SectionAlready';
+import { SectionUpcoming } from '@/pages/SectionUpcoming';
+import ReferralSection from '@/pages/ReferralSection';
 import GetStartedSection from '@/pages/GetStartedSection';
-import FAQSection from '@/pages/FAQSection';
-import CTASection from '@/pages/CTASection';
 
 export function MainPage() {
   return (
-    <>
-      <HeroSection />
-      <IntroSection />
-      <FeaturePreview />
+    <div className="w-full p-2">
+      <SectionAlready />
+      <hr className="hr-line my-8" />
+      <SectionUpcoming />
+      <hr className="hr-line my-8" />
       <GetStartedSection />
-      <FAQSection />
-      <CTASection />
-    </>
+      <ReferralSection />
+    </div>
   );
 }
