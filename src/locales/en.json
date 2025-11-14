@@ -17,14 +17,174 @@
     "shareCopied": "(Share link) copied",
     "selectLanguage": "Select Language"
   },
-  "bykeon-service": "ByKeon Service",
-  "easy2get": "Easy to get",
-  "yourIp": "Your IP address",
-  "QR-Code-Name": "QR Code Service",
-  "QR-Make-Name": "Generate QR Code",
-  "QR-Make-Desc": "Enter content to generate QR Code instantly",
-  "QR-Load-Name": "Load QR Code",
-  "QR-Load-Desc": "Analyze QR Code from image file",
-  "QR-Scan-Name": "Scan QR Code",
-  "QR-Scan-Desc": "Use camera to scan physical QR Code"
+  "sectionAlready": {
+    "title": "Services currently available on UR",
+    "subtitle": "(Register, complete KYC, and activate your account to unlock all features)",
+    "items": [
+      {
+        "title": "Swiss Bank Account",
+        "points": [
+          "Provides a Swiss IBAN account",
+          "Supports USD/EUR/CHF/RMB/SGD/HKD/JPY",
+          "Supports SWIFT / SEPA / SIC transfers"
+        ]
+      },
+      {
+        "title": "Mastercard Debit Card",
+        "points": [
+          "Usable worldwide wherever Mastercard is accepted",
+          "Can be linked to PayPal",
+          "Spend using fiat balance or USDe"
+        ]
+      },
+      {
+        "title": "Real-time Forex (FX)",
+        "points": [
+          "Supports USD/EUR/CHF/RMB/SGD/HKD/JPY",
+          "Instant currency exchange inside the app"
+        ]
+      },
+      {
+        "title": "Built-in Crypto Wallet",
+        "points": [
+          "Supports ETH / USDC / USDT / USDe",
+          "Supports Ethereum / Mantle / Base / Arbitrum"
+        ]
+      },
+      {
+        "title": "Tokenized Deposits",
+        "points": [
+          "Zero-fee transfers of multiple fiat tokens between UR users",
+          "Each token is backed by corresponding fiat reserves in Swiss banks"
+        ]
+      },
+      {
+        "title": "USDe Auto-Yield Account",
+        "points": [
+          "Holding USDe automatically generates yield",
+          "Weekly distributions credited to your account"
+        ]
+      }
+    ],
+    "sectionUpcoming": {
+      "title": "Upcoming features from UR",
+      "items": [
+        "Fiat-to-crypto on-ramp service",
+        "Support for more blockchain networks: TON, Solana",
+        "Bank fiat withdrawals with USD support",
+        "Bank fiat withdrawals available in more regions",
+        "USDe approval without MNT gas (pending contract upgrade)"
+      ]
+    }
+  },
+  "sectionUpcoming": {
+    "title": "Upcoming features from UR",
+    "items": [
+      "Fiat-to-crypto on-ramp service",
+      "Support for more blockchain networks: TON, Solana",
+      "Bank fiat withdrawals with USD support",
+      "Bank fiat withdrawals available in more regions",
+      "USDe approval without MNT gas (pending contract upgrade)"
+    ]
+  },
+  "sectionGetStart": {
+    "title": "Steps to activate your UR account",
+    "cta": "Check supported countries and regions",
+
+    "steps": [
+      {
+        "title": "Verify eligibility",
+        "items": [
+          "Must be at least 18 years old",
+          "Hold a passport with NFC chip support",
+          "Reside in a UR-supported country (see link below)",
+          "Not a U.S. person"
+        ]
+      },
+      {
+        "title": "Register a UR account",
+        "items": [
+          "Sign up with Google or email",
+          "✔ Enter the correct verification code to complete registration"
+        ]
+      },
+      {
+        "title": "Complete KYC",
+        "items": [
+          "Fill in questionnaire",
+          "GPS location",
+          "Passport NFC scan",
+          "Face verification"
+        ]
+      },
+      {
+        "title": "Wait for approval",
+        "items": [
+          "Usually 5 minutes to a few hours, up to 3 business days",
+          "✔ After approval, your Swiss bank account becomes available"
+        ]
+      },
+      {
+        "title": "Activate your account (obtain Debit Card number)",
+        "items": [
+          "Deposit at least 5 USD worth of USDC",
+          "✔ You can now obtain your Debit Card number"
+        ]
+      }
+    ]
+  },
+  "sectionReferral": {
+    "title": "Invite friends and earn $5 each",
+    "cta": "Register now and earn $5",
+    "items": [
+      "Your friend signs up using your referral link",
+      "Your friend completes KYC verification",
+      "Your friend completes a single purchase of ≥ $5",
+      "Both you and your friend will receive a $5 reward"
+    ]
+  },
+  "sectionAmbassador": {
+    "title": "Ambassador Cashback Campaign",
+    "subtitle": "(Subscribe to supported platforms and earn cashback)",
+    "titleCampaign": "Campaign Details",
+    "titleRules": "Campaign Rules",
+    "titlePlatforms": "Supported Platforms",
+
+    "campian": [
+      "Users who register and complete KYC",
+      "Earn 20% cashback on supported platforms during the first month.",
+      "Earn 10% cashback on supported platforms during the second month."
+    ],
+
+    "rules": [
+      "Campaign period: 2025-11-01 to 2025-12-31",
+      "Only users who register via ambassador code or partner channels are eligible.",
+      "Cashback rewards will be distributed before the end of the next month.",
+      "Refunded or cancelled transactions will result in proportional deduction of cashback.",
+      "For premium or annual plans, users can earn up to $10 maximum cashback.",
+      "Users must complete subscriptions to eligible platforms during the campaign period.",
+      "Fraud, abuse, or irregular activity will result in disqualification.",
+      "UR reserves the right to modify, interpret, and enforce campaign rules."
+    ],
+
+    "platforms": [
+      "ChatGPT Plus / Claude Pro",
+      "GitHub Copilot",
+      "Notion AI / Canva Pro",
+      "Replit / Cursor / Midjourney",
+      "RunPod / HuggingFace / Poe",
+      "Netflix / Spotify / Disney+",
+      "Apple TV+ / Amazon Prime Video"
+    ],
+
+    "cta": "Register now using ambassador code (urkeon) to join the campaign"
+  },
+  "sectionDisclaimer": {
+    "tgTitle": "If you have any questions, please join the discussion on Telegram:",
+    "tgGlobal": "Global Community",
+    "tgMandarin": "Mandarin Community",
+    "disclaimer": "If any information on this page is unclear, please refer to the official website",
+    "officialSite": "UR.APP",
+    "asMain": "as the primary source."
+  }
 }

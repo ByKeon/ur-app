@@ -1,17 +1,17 @@
 import clsx from 'clsx';
+import { useTranslation } from 'react-i18next';
 
 export function SectionReferral() {
-  const items = [
-    '好友使用你的推薦連結註冊',
-    '好友完成 KYC 身份驗證',
-    '好友完成單筆 ≥ $5U 的消費',
-    '你與好友都將獲得 $5U 奬勵',
-  ];
+  const { t } = useTranslation();
+
+  const items = t('sectionReferral.items', {
+    returnObjects: true,
+  }) as string[];
 
   return (
     <section id="SectionReferral" className="my-20 py-4 px-2">
       <h2 className="text-3xl font-bold text-center">
-        推薦好友，各獲 $5U 奬勵
+        {t('sectionReferral.title')}
       </h2>
 
       <ul
@@ -45,7 +45,7 @@ export function SectionReferral() {
             'shadow'
           )}
         >
-          馬上去註冊，賺取 5U 獎勵
+          {t('sectionReferral.cta')}
         </a>
       </div>
     </section>

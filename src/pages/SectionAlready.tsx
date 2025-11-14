@@ -1,59 +1,24 @@
 import clsx from 'clsx';
+import { useTranslation } from 'react-i18next';
 
 export function SectionAlready() {
-  const alreadyServices = [
-    {
-      title: '瑞士銀行帳戶',
-      points: [
-        '提供瑞士銀行的 IBAN 帳號',
-        '支援貨幣 USD/EUR/CHF/RMB/SGD/HKD/JPY',
-        '支援 SWIFT / SEPA / SIC 匯款出金',
-      ],
-    },
-    {
-      title: 'Mastercard Debit 卡號',
-      points: [
-        '可於全球 Mastercard 通路刷卡',
-        '可綁定 PayPal 帳號',
-        '直接使用法幣或 USDe 消費',
-      ],
-    },
-    {
-      title: '即時外匯服務 (Forex)',
-      points: [
-        '支援貨幣 USD/EUR/CHF/RMB/SGD/HKD/JPY',
-        '任意貨幣對，皆可於 App 內依照匯率即時兌換',
-      ],
-    },
-    {
-      title: '內建區塊鏈錢包',
-      points: [
-        '支持 ETH / USDC / USDT / USDe',
-        '支持 Ethereum / Mantle / Base / Arbitrum',
-      ],
-    },
-    {
-      title: '鏈上代幣化存款',
-      points: [
-        'UR 用戶之間多種法幣可直接轉帳(零手續費)',
-        '每枚代幣都於瑞士銀行中擁有對應的法幣儲備',
-      ],
-    },
-    {
-      title: 'USDe 自動收益帳戶',
-      points: [
-        '帳號內持有 USDe 即可自動產生利息',
-        '自動於每週特定時間發放收益入帳',
-      ],
-    },
-  ];
+  const { t } = useTranslation();
+
+  const alreadyServices = t('sectionAlready.items', {
+    returnObjects: true,
+  }) as {
+    title: string;
+    points: string[];
+  }[];
 
   return (
     <section id="SectionAlready" className="my-20 px-2 py-4">
-      <h2 className="text-3xl font-bold text-center">UR 目前已提供的服務</h2>
+      <h2 className="text-3xl font-bold text-center">
+        {t('sectionAlready.title')}
+      </h2>
 
       <div className="p-2 text-center text-gray-500">
-        (註冊、完成 KYC 並啟動帳號，獲得以下全部功能)
+        {t('sectionAlready.subtitle')}
       </div>
 
       {/* Cards */}

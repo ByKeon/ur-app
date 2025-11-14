@@ -1,38 +1,29 @@
 import clsx from 'clsx';
+import { useTranslation } from 'react-i18next';
 
 export function SectionAmbassador() {
-  const campian = [
-    '用戶註冊並完成 KYC 後',
-    '首月於指定相關平台的消費可獲得 20% 返現。',
-    '次月於指定相關平台的消費可獲得 10% 返現。',
-  ];
+  const { t } = useTranslation();
 
-  const rules = [
-    '活動期限自 2025-11-01 起至 2025-12-31 止',
-    '僅透過大使邀請碼或合作渠道註冊的用戶可獲得返現。',
-    '獎勵返現將在次月底前發放；',
-    '若有退款或退單，將按比例扣回返現。',
-    '高階方案或年費訂閱，每位用戶最高可獲得 10 美元返現。',
-    '須於活動期間完成訂閱符合條件的工具。',
-    '任何虛假、濫用或異常交易行為將被取消資格。',
-    'UR 保留活動異動、有效交易判定以及風控之最終解釋權。',
-  ];
+  const campian = t('sectionAmbassador.campian', {
+    returnObjects: true,
+  }) as string[];
 
-  const platforms = [
-    'ChatGPT Plus / Claude Pro',
-    'GitHub Copilot',
-    'Notion AI / Canva Pro',
-    'Replit / Cursor / Midjourney',
-    'RunPod / HuggingFace / Poe',
-    'Netflix / Spotify / Disney+',
-    'Apple TV+ / Amazon Prime Video',
-  ];
+  const rules = t('sectionAmbassador.rules', {
+    returnObjects: true,
+  }) as string[];
+
+  const platforms = t('sectionAmbassador.platforms', {
+    returnObjects: true,
+  }) as string[];
 
   return (
     <section id="SectionAmbassador" className="my-20 px-2 py-4">
-      <h2 className="text-3xl font-bold text-center">大使限定推廣返現活動</h2>
+      <h2 className="text-3xl font-bold text-center">
+        {t('sectionAmbassador.title')}
+      </h2>
+
       <div className="p-2 text-center text-gray-500">
-        (訂閱指定平台，獲得額外返現)
+        {t('sectionAmbassador.subtitle')}
       </div>
 
       <div
@@ -43,6 +34,7 @@ export function SectionAmbassador() {
           'rounded-2xl shadow-md'
         )}
       >
+        {/* 活動內容 */}
         <div className="mb-8">
           <h3
             className={clsx(
@@ -50,7 +42,7 @@ export function SectionAmbassador() {
               'text-blue-700 dark:text-blue-300'
             )}
           >
-            🎁 活動內容
+            🎁 {t('sectionAmbassador.titleCampaign')}
           </h3>
           <ul className="text-gray-800 dark:text-gray-200 space-y-2 pl-2">
             {campian.map((item, i) => (
@@ -59,6 +51,7 @@ export function SectionAmbassador() {
           </ul>
         </div>
 
+        {/* 活動規則 */}
         <div className="mb-8">
           <h3
             className={clsx(
@@ -66,7 +59,7 @@ export function SectionAmbassador() {
               'text-blue-700 dark:text-blue-300'
             )}
           >
-            📋 活動規則
+            📋 {t('sectionAmbassador.titleRules')}
           </h3>
           <ul className="text-gray-800 dark:text-gray-200 space-y-2 pl-2">
             {rules.map((item, i) => (
@@ -75,6 +68,7 @@ export function SectionAmbassador() {
           </ul>
         </div>
 
+        {/* 支援平台 */}
         <div className="mb-4">
           <h3
             className={clsx(
@@ -82,7 +76,7 @@ export function SectionAmbassador() {
               'text-blue-700 dark:text-blue-300'
             )}
           >
-            🧩 推廣活動支援平台
+            🧩 {t('sectionAmbassador.titlePlatforms')}
           </h3>
           <ul className="text-gray-800 dark:text-gray-200 space-y-2 pl-2">
             {platforms.map((p, i) => (
@@ -92,7 +86,7 @@ export function SectionAmbassador() {
         </div>
       </div>
 
-      {/* CTA 按鈕（改為新 style） */}
+      {/* CTA */}
       <div className="text-center mt-6">
         <a
           href="https://get.ur.app/login?code=urkeon"
@@ -104,7 +98,7 @@ export function SectionAmbassador() {
             'shadow'
           )}
         >
-          馬上使用大使邀請碼(urkeon)，來去註冊參加活動
+          {t('sectionAmbassador.cta')}
         </a>
       </div>
     </section>

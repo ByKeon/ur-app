@@ -1,6 +1,9 @@
 import clsx from 'clsx';
+import { useTranslation } from 'react-i18next';
 
 export function SectionDisclaimer() {
+  const { t } = useTranslation();
+
   // Telegram 官方 SVG ICON（可複用）
   const TelegramIconB = (
     <svg
@@ -39,10 +42,10 @@ export function SectionDisclaimer() {
 
   return (
     <section className="px-4 py-8 text-center">
-      {/* 🚀 灰底 + 卡片 */}
+      {/* 灰底卡片 */}
       <div
         className={clsx(
-          'max-w-md mx-auto p-6 rounded-2xl shadow',
+          'max-w-3xl mx-auto p-6 rounded-2xl shadow',
           'bg-white dark:bg-gray-800',
           'text-gray-800 dark:text-gray-200',
           'border border-gray-300 dark:border-gray-700'
@@ -50,37 +53,39 @@ export function SectionDisclaimer() {
       >
         {/* Telegram 區塊 */}
         <div className="text-left">
-          如有任何問題，請至 Telegram 討論：
+          {t('sectionDisclaimer.tgTitle')}
           <br />
-          {/* 一般討論區 */}
+
           <a
             href="https://t.me/UR_APP_GlobalX"
             target="_blank"
             className="text-blue-500 underline block mt-2"
           >
-            {TelegramIconB} 一般討論區：https://t.me/UR_APP_GlobalX
+            {TelegramIconB} {t('sectionDisclaimer.tgGlobal')}：
+            https://t.me/UR_APP_GlobalX
           </a>
-          {/* 華語討論區（黃色 Icon） */}
+
           <a
             href="https://t.me/UR_MandarinX"
             target="_blank"
             className="text-blue-500 underline block mt-2"
           >
-            {TelegramIconY} 華語討論區：https://t.me/UR_MandarinX
+            {TelegramIconY} {t('sectionDisclaimer.tgMandarin')}：
+            https://t.me/UR_MandarinX
           </a>
         </div>
 
         {/* 免責聲明 */}
         <div className="mt-6 text-sm text-red-500 leading-relaxed">
-          本頁面如有資訊不明確時，請以官網
+          {t('sectionDisclaimer.disclaimer')}{' '}
           <a
             href="https://ur.app/"
             target="_blank"
             className="text-blue-500 underline mx-1"
           >
-            UR.APP
+            {t('sectionDisclaimer.officialSite')}
           </a>
-          內容為主。
+          {t('sectionDisclaimer.asMain')}
         </div>
       </div>
     </section>
