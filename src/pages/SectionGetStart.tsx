@@ -46,7 +46,7 @@ export function SectionGetStart() {
               className={clsx(
                 'p-6 w-full',
                 'bg-white dark:bg-gray-800',
-                'border border-gray-200 dark:border-gray-700',
+                'border border-gray-300 dark:border-gray-700',
                 'shadow rounded-xl'
               )}
             >

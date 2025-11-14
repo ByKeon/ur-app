@@ -35,7 +35,14 @@ export function SectionAmbassador() {
         (訂閱指定平台，獲得額外返現)
       </div>
 
-      <div className="mt-4 max-w-2xl mx-auto bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl shadow-md p-8 transition-colors">
+      <div
+        className={clsx(
+          'mt-4 p-8 max-w-2xl mx-auto',
+          'bg-white dark:bg-gray-800',
+          'border border-gray-300 dark:border-gray-700',
+          'rounded-2xl shadow-md'
+        )}
+      >
         <div className="mb-8">
           <h3
             className={clsx(
