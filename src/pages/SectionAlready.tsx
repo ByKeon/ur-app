@@ -1,3 +1,5 @@
+import clsx from 'clsx';
+
 export function SectionAlready() {
   const alreadyServices = [
     {
@@ -17,7 +19,7 @@ export function SectionAlready() {
       ],
     },
     {
-      title: '即時外匯服務（Forex）',
+      title: '即時外匯服務 (Forex)',
       points: [
         '支援貨幣 USD/EUR/CHF/RMB/SGD/HKD/JPY',
         '任意貨幣對，皆可於 App 內依照匯率即時兌換',
@@ -47,31 +49,30 @@ export function SectionAlready() {
   ];
 
   return (
-    <section id="SectionAlready" className="px-2 py-4">
-      <h2
-        className="text-3xl font-bold text-center
-          text-gray-900 dark:text-gray-100"
-      >
-        UR 目前已提供的服務
-      </h2>
+    <section id="SectionAlready" className="my-20 px-2 py-4">
+      <h2 className="text-3xl font-bold text-center">UR 目前已提供的服務</h2>
 
       <div className="p-2 text-center text-gray-500">
-        (註冊、完全 KYC 並啟動帳號即可擁有以下全部功能)
+        (註冊、完成 KYC 並啟動帳號，獲得以下全部功能)
       </div>
 
       {/* Cards */}
-      <div className="grid md:grid-cols-2 gap-4 max-w-4xl mx-auto mt-4">
+      <div className="mt-4 grid md:grid-cols-2 gap-4 max-w-4xl mx-auto">
         {alreadyServices.map((s) => (
           <div
             key={s.title}
-            className="p-6 rounded-xl shadow
-              bg-white dark:bg-gray-800
-              text-gray-800 dark:text-gray-200
-              border border-gray-300 dark:border-gray-700"
+            className={clsx(
+              'p-6 rounded-xl shadow',
+              'bg-white dark:bg-gray-800',
+              'text-gray-800 dark:text-gray-200',
+              'border border-gray-300 dark:border-gray-700'
+            )}
           >
             <h3
-              className="text-xl font-semibold mb-4
-                text-blue-700 dark:text-blue-300"
+              className={clsx(
+                'text-xl font-semibold mb-2',
+                'text-blue-700 dark:text-blue-300'
+              )}
             >
               {s.title}
             </h3>

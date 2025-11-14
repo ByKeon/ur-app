@@ -1,17 +1,21 @@
 import { SectionAlready } from '@/pages/SectionAlready';
 import { SectionUpcoming } from '@/pages/SectionUpcoming';
-import ReferralSection from '@/pages/ReferralSection';
-import GetStartedSection from '@/pages/GetStartedSection';
+import { SectionGetStart } from '@/pages/SectionGetStart';
+import { SectionReferral } from '@/pages/SectionReferral';
+import { SectionAmbassador } from '@/pages/SectionAmbassador';
 
 export function MainPage() {
   return (
-    <div className="w-full p-2">
+    <div className="w-full px-2">
       <SectionAlready />
-      <hr className="hr-line my-8" />
+      <hr className="hr-line" />
       <SectionUpcoming />
-      <hr className="hr-line my-8" />
-      <GetStartedSection />
-      <ReferralSection />
+      <hr className="hr-line" />
+      <SectionGetStart />
+      <hr className="hr-line" />
+      <SectionReferral />
+      <hr className="hr-line" />
+      <SectionAmbassador />
     </div>
   );
 }
