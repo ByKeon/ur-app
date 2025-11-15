@@ -51,11 +51,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bykeon.com/ru/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://bykeon.com/tw/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
