@@ -17,14 +17,159 @@
     "shareCopied": "(Enlace para compartir) copiado",
     "selectLanguage": "Seleccionar idioma"
   },
-  "bykeon-service": "Servicio ByKeon",
-  "easy2get": "Fácil de obtener",
-  "yourIp": "Tu dirección IP",
-  "QR-Code-Name": "Servicio de Código QR",
-  "QR-Make-Name": "Generar Código QR",
-  "QR-Make-Desc": "Ingresa contenido para generar un Código QR al instante",
-  "QR-Load-Name": "Cargar Código QR",
-  "QR-Load-Desc": "Analizar Código QR desde archivo de imagen",
-  "QR-Scan-Name": "Escanear Código QR",
-  "QR-Scan-Desc": "Usar la cámara para escanear un Código QR físico"
+  "sectionAlready": {
+    "title": "Servicios ya ofrecidos por UR",
+    "subtitle": "(Regístrese, complete KYC y active su cuenta para obtener todas las siguientes funciones)",
+    "items": [
+      {
+        "title": "Cuenta Bancaria Suiza",
+        "points": [
+          "Proporciona un número de cuenta IBAN de un banco suizo",
+          "Monedas admitidas USD/EUR/CHF/RMB/SGD/HKD/JPY",
+          "Admite transferencias SWIFT / SEPA / SIC y retiros"
+        ]
+      },
+      {
+        "title": "Número de Tarjeta de Débito Mastercard",
+        "points": [
+          "Se puede usar en los canales de Mastercard en todo el mundo",
+          "Se puede vincular a una cuenta de PayPal",
+          "Gaste directamente usando moneda fiduciaria o USDe"
+        ]
+      },
+      {
+        "title": "Servicio de Divisas en Tiempo Real (Forex)",
+        "points": [
+          "Monedas admitidas USD/EUR/CHF/RMB/SGD/HKD/JPY",
+          "Cualquier par de divisas se puede cambiar instantáneamente dentro de la aplicación según el tipo de cambio"
+        ]
+      },
+      {
+        "title": "Cartera Blockchain Integrada",
+        "points": [
+          "Soporta ETH / USDC / USDT / USDe",
+          "Soporta Ethereum / Mantle / Base / Arbitrum"
+        ]
+      },
+      {
+        "title": "Depósitos Tokenizados On-Chain",
+        "points": [
+          "Transferencia directa de múltiples monedas fiduciarias entre usuarios de UR (cero comisiones)",
+          "Cada token tiene una reserva de moneda fiduciaria correspondiente en un banco suizo"
+        ]
+      },
+      {
+        "title": "Cuenta de Rendimiento Automático USDe",
+        "points": [
+          "Mantener USDe en la cuenta genera intereses automáticamente",
+          "El rendimiento se acredita automáticamente en la cuenta en momentos semanales específicos"
+        ]
+      }
+    ]
+  },
+  "sectionUpcoming": {
+    "title": "Servicios futuros que UR lanzará",
+    "items": [
+      "Servicio de conversión directa de moneda fiduciaria a criptoactivos (On-ramp)",
+      "Más soporte de red blockchain: TON, Solana",
+      "Retiro por transferencia bancaria en moneda fiduciaria compatible con USD",
+      "Retiro por transferencia bancaria en moneda fiduciaria compatible con más países y regiones",
+      "Autorización USDe sin MNT Gas (esperando actualización del contrato)"
+    ]
+  },
+  "sectionGetStart": {
+    "title": "Pasos para activar su cuenta UR",
+    "cta": "Consultar la lista de países y regiones compatibles con el servicio UR",
+    "steps": [
+      {
+        "title": "Verificar la Elegibilidad",
+        "items": [
+          "Tener 18 años o más",
+          "Poseer un pasaporte compatible con escaneo de chip NFC",
+          "Residir en un país compatible con el servicio UR (enlace de consulta a continuación)",
+          "No ser ciudadano estadounidense"
+        ]
+      },
+      {
+        "title": "Registrar la Cuenta UR",
+        "items": [
+          "Registrarse con Google o Email",
+          "✔ Ingrese el código de verificación correcto, la verificación exitosa creará la cuenta"
+        ]
+      },
+      {
+        "title": "Completar KYC",
+        "items": [
+          "Rellenar el cuestionario",
+          "Ubicación GPS",
+          "Escaneo NFC del pasaporte",
+          "Verificación facial"
+        ]
+      },
+      {
+        "title": "Esperar la Revisión",
+        "items": [
+          "Generalmente de 5 minutos a unas pocas horas, máximo 3 días hábiles",
+          "✔ Después de completar la revisión KYC, obtendrá una cuenta bancaria suiza"
+        ]
+      },
+      {
+        "title": "Activar la Cuenta (Obtener el Número de Tarjeta de Débito)",
+        "items": [
+          "Depositar USDC equivalente a al menos 5 USD",
+          "✔ Puede obtener el número de tarjeta de débito"
+        ]
+      }
+    ]
+  },
+  "sectionReferral": {
+    "title": "Recomienda a un amigo, ambos obtienen una recompensa de $5U",
+    "cta": "Regístrese ahora y gane la recompensa de 5U",
+    "items": [
+      "El amigo se registra usando su enlace de recomendación",
+      "El amigo completa la verificación de identidad KYC",
+      "El amigo completa un gasto único de ≥ $5U",
+      "Usted y su amigo recibirán una recompensa de $5U"
+    ]
+  },
+  "sectionAmbassador": {
+    "title": "Actividad de Cashback de Promoción Exclusiva para Embajadores",
+    "subtitle": "(Suscríbase a plataformas designadas para obtener un cashback adicional)",
+    "titleCampaign": "Contenido de la Actividad",
+    "titleRules": "Reglas de la Actividad",
+    "titlePlatforms": "Plataformas admitidas para la promoción",
+    "campian": [
+      "Después de que el usuario se registra y completa KYC",
+      "Los gastos en las plataformas relacionadas designadas reciben un 20% de cashback durante el primer mes.",
+      "Los gastos en las plataformas relacionadas designadas reciben un 10% de cashback durante el mes siguiente."
+    ],
+    "rules": [
+      "La actividad es válida del 01/11/2025 al 31/12/2025",
+      "Solo los usuarios que se registren a través de un código de invitación de embajador o canales de socios calificarán para el cashback.",
+      "Las recompensas de cashback se emitirán antes del final del mes siguiente;",
+      "En caso de reembolso o cancelación de pedidos, el cashback se deducirá proporcionalmente.",
+      "Para planes premium o suscripciones anuales, cada usuario puede recibir un máximo de 10 USD de cashback.",
+      "La suscripción a la herramienta elegible debe completarse durante el período de la actividad.",
+      "Cualquier comportamiento de transacción falso, abusivo o anómalo resultará en la descalificación.",
+      "UR se reserva el derecho de interpretación final sobre cambios en la actividad, determinación de transacciones válidas y control de riesgos."
+    ],
+    "platforms": [
+      "ChatGPT Plus / Claude Pro",
+      "GitHub Copilot",
+      "Notion AI / Canva Pro",
+      "Replit / Cursor / Midjourney",
+      "RunPod / HuggingFace / Poe",
+      "Netflix / Spotify / Disney+",
+      "Apple TV+ / Amazon Prime Video"
+    ],
+    "cta": "Utilice el código de invitación del embajador (urkeon) ahora para registrarse y participar en la actividad"
+  },
+  "sectionDisclaimer": {
+    "tgTitle": "Para cualquier pregunta, únase a la discusión en Telegram:",
+    "tgGlobal": "Grupo de Discusión General",
+    "tgMandarin": "Grupo de Discusión en Mandarín",
+    "disclaimer": "En caso de información ambigua en esta página, el contenido del sitio web oficial",
+    "officialSite": "UR.APP",
+    "asMain": "será la principal fuente."
+  }
 }

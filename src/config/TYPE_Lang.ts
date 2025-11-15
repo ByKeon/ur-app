@@ -8,7 +8,9 @@ export const LIST_Lang = [
   'es',
   'fr',
   'pt',
+/*
   'ru',
+*/
   'ar',
 ] as const;
 export type TYPE_Lang = (typeof LIST_Lang)[number];

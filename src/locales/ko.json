@@ -17,14 +17,159 @@
     "shareCopied": "(공유 링크) 복사됨",
     "selectLanguage": "언어 선택"
   },
-  "bykeon-service": "ByKeon 서비스",
-  "easy2get": "쉽게 얻기",
-  "yourIp": "귀하의 IP 주소",
-  "QR-Code-Name": "QR 코드 서비스",
-  "QR-Make-Name": "QR 코드 생성",
-  "QR-Make-Desc": "내용을 입력하여 즉시 QR 코드 생성",
-  "QR-Load-Name": "QR 코드 불러오기",
-  "QR-Load-Desc": "이미지 파일에서 QR 코드 분석",
-  "QR-Scan-Name": "QR 코드 스캔",
-  "QR-Scan-Desc": "카메라로 실물 QR 코드 스캔"
+  "sectionAlready": {
+    "title": "UR에서 이미 제공하는 서비스",
+    "subtitle": "(등록, KYC 완료 및 계정 활성화를 통해 아래 모든 기능을 이용할 수 있습니다)",
+    "items": [
+      {
+        "title": "스위스 은행 계좌",
+        "points": [
+          "스위스 은행의 IBAN 계좌 번호 제공",
+          "지원 통화 USD/EUR/CHF/RMB/SGD/HKD/JPY",
+          "SWIFT / SEPA / SIC 송금 및 출금 지원"
+        ]
+      },
+      {
+        "title": "Mastercard 직불카드 번호",
+        "points": [
+          "전 세계 Mastercard 가맹점에서 사용 가능",
+          "PayPal 계정에 연결 가능",
+          "법정 화폐 또는 USDe로 직접 결제"
+        ]
+      },
+      {
+        "title": "실시간 외환 서비스 (Forex)",
+        "points": [
+          "지원 통화 USD/EUR/CHF/RMB/SGD/HKD/JPY",
+          "모든 통화 쌍은 앱 내에서 환율에 따라 실시간으로 교환 가능"
+        ]
+      },
+      {
+        "title": "내장 블록체인 지갑",
+        "points": [
+          "ETH / USDC / USDT / USDe 지원",
+          "Ethereum / Mantle / Base / Arbitrum 지원"
+        ]
+      },
+      {
+        "title": "온체인 토큰화 예금",
+        "points": [
+          "UR 사용자 간 다양한 법정 화폐 직접 전송 가능 (수수료 없음)",
+          "각 토큰은 스위스 은행에 해당 법정 화폐 준비금을 보유"
+        ]
+      },
+      {
+        "title": "USDe 자동 수익 계정",
+        "points": [
+          "계정에 USDe를 보유하면 이자가 자동으로 발생",
+          "수익은 매주 특정 시간에 자동으로 계정에 지급됨"
+        ]
+      }
+    ]
+  },
+  "sectionUpcoming": {
+    "title": "UR에서 향후 출시될 서비스",
+    "items": [
+      "법정 화폐를 암호화폐 자산으로 직접 전환 (On-ramp) 서비스",
+      "추가 블록체인 네트워크 지원: TON, Solana",
+      "은행 법정 화폐 송금 출금 USD 지원",
+      "은행 법정 화폐 송금 출금 더 많은 국가/지역 지원",
+      "USDe 승인 시 MNT Gas 면제 (계약 업그레이드 대기 중)"
+    ]
+  },
+  "sectionGetStart": {
+    "title": "UR 계정 활성화 단계",
+    "cta": "UR 서비스 지원 국가 및 지역 목록 확인",
+    "steps": [
+      {
+        "title": "자격 확인",
+        "items": [
+          "만 18세 이상",
+          "NFC 칩 스캔을 지원하는 여권 소지",
+          "UR 서비스 지원 국가에 거주 (확인 링크는 아래)",
+          "미국인이 아님"
+        ]
+      },
+      {
+        "title": "UR 계정 등록",
+        "items": [
+          "Google 또는 이메일로 등록",
+          "✔ 정확한 인증 코드 입력, 성공적인 인증 시 계정 생성"
+        ]
+      },
+      {
+        "title": "KYC 완료",
+        "items": [
+          "설문지 작성",
+          "GPS 위치 확인",
+          "여권 NFC 스캔",
+          "얼굴 인증"
+        ]
+      },
+      {
+        "title": "심사 대기",
+        "items": [
+          "보통 5분에서 몇 시간, 최대 3영업일",
+          "✔ KYC 심사 완료 후 스위스 은행 계좌 획득"
+        ]
+      },
+      {
+        "title": "계정 활성화 (직불카드 번호 받기)",
+        "items": [
+          "최소 5달러 상당의 USDC 입금",
+          "✔ 직불카드 번호 획득 가능"
+        ]
+      }
+    ]
+  },
+  "sectionReferral": {
+    "title": "친구 추천 시, 각 $5U 보상 획득",
+    "cta": "지금 바로 등록하고 5U 보상 받기",
+    "items": [
+      "친구가 당신의 추천 링크를 사용하여 등록",
+      "친구가 KYC 신원 확인을 완료",
+      "친구가 단일 거래 $5U 이상 소비 완료",
+      "당신과 친구 모두 $5U 보상 획득"
+    ]
+  },
+  "sectionAmbassador": {
+    "title": "앰버서더 한정 프로모션 캐시백 이벤트",
+    "subtitle": "(지정된 플랫폼 구독 시 추가 캐시백 획득)",
+    "titleCampaign": "이벤트 내용",
+    "titleRules": "이벤트 규칙",
+    "titlePlatforms": "프로모션 활동 지원 플랫폼",
+    "campian": [
+      "사용자가 등록하고 KYC를 완료한 후",
+      "지정된 관련 플랫폼에서의 첫 달 소비에 대해 20% 캐시백 획득.",
+      "지정된 관련 플랫폼에서의 다음 달 소비에 대해 10% 캐시백 획득."
+    ],
+    "rules": [
+      "이벤트 기간은 2025-11-01부터 2025-12-31까지입니다",
+      "앰버서더 초대 코드 또는 제휴 채널을 통해 등록한 사용자만 캐시백을 받을 수 있습니다.",
+      "캐시백 보상은 다음 달 말 이전에 지급됩니다.",
+      "환불 또는 주문 취소 시, 캐시백은 비례하여 차감됩니다.",
+      "프리미엄 플랜 또는 연간 구독의 경우, 사용자당 최대 10달러 캐시백을 받을 수 있습니다.",
+      "적격 도구 구독은 이벤트 기간 내에 완료해야 합니다.",
+      "허위, 남용 또는 비정상적인 거래 행위는 자격 박탈로 이어집니다.",
+      "UR은 이벤트 변경, 유효 거래 판정 및 위험 통제에 대한 최종 해석 권한을 보유합니다."
+    ],
+    "platforms": [
+      "ChatGPT Plus / Claude Pro",
+      "GitHub Copilot",
+      "Notion AI / Canva Pro",
+      "Replit / Cursor / Midjourney",
+      "RunPod / HuggingFace / Poe",
+      "Netflix / Spotify / Disney+",
+      "Apple TV+ / Amazon Prime Video"
+    ],
+    "cta": "지금 바로 앰버서더 초대 코드 (urkeon)를 사용하여 등록하고 이벤트에 참여하세요"
+  },
+  "sectionDisclaimer": {
+    "tgTitle": "궁금한 점이 있으면 Telegram 토론방에 참여하세요:",
+    "tgGlobal": "일반 토론방",
+    "tgMandarin": "중국어 토론방",
+    "disclaimer": "이 페이지의 정보가 불명확할 경우, 공식 웹사이트",
+    "officialSite": "UR.APP",
+    "asMain": "콘텐츠를 기준으로 합니다."
+  }
 }

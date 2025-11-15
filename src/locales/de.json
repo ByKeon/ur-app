@@ -17,14 +17,159 @@
     "shareCopied": "(Freigabelink) kopiert",
     "selectLanguage": "Sprache auswählen"
   },
-  "bykeon-service": "ByKeon Dienst",
-  "easy2get": "Einfach zu erhalten",
-  "yourIp": "Ihre IP-Adresse",
-  "QR-Code-Name": "QR-Code Dienst",
-  "QR-Make-Name": "QR-Code erstellen",
-  "QR-Make-Desc": "Inhalt eingeben, um QR-Code sofort zu erzeugen",
-  "QR-Load-Name": "QR-Code laden",
-  "QR-Load-Desc": "QR-Code aus Bilddatei analysieren",
-  "QR-Scan-Name": "QR-Code scannen",
-  "QR-Scan-Desc": "Mit Kamera physischen QR-Code scannen"
+  "sectionAlready": {
+    "title": "Derzeit von UR angebotene Dienste",
+    "subtitle": "(Registrieren Sie sich, schließen Sie KYC ab und aktivieren Sie Ihr Konto, um alle folgenden Funktionen zu erhalten)",
+    "items": [
+      {
+        "title": "Schweizer Bankkonto",
+        "points": [
+          "Bereitstellung einer Schweizer IBAN-Kontonummer",
+          "Unterstützte Währungen USD/EUR/CHF/RMB/SGD/HKD/JPY",
+          "Unterstützt SWIFT / SEPA / SIC Überweisungen und Abhebungen"
+        ]
+      },
+      {
+        "title": "Mastercard Debit-Kartennummer",
+        "points": [
+          "Weltweit auf Mastercard-Kanälen verwendbar",
+          "Kann mit einem PayPal-Konto verknüpft werden",
+          "Direkte Ausgaben mit Fiat-Währung oder USDe"
+        ]
+      },
+      {
+        "title": "Sofortiger Devisenservice (Forex)",
+        "points": [
+          "Unterstützte Währungen USD/EUR/CHF/RMB/SGD/HKD/JPY",
+          "Jedes Währungspaar kann innerhalb der App zum aktuellen Wechselkurs sofort umgetauscht werden"
+        ]
+      },
+      {
+        "title": "Integrierte Blockchain-Wallet",
+        "points": [
+          "Unterstützt ETH / USDC / USDT / USDe",
+          "Unterstützt Ethereum / Mantle / Base / Arbitrum"
+        ]
+      },
+      {
+        "title": "Tokenisierte Einlagen auf der Kette",
+        "points": [
+          "Direkte Überweisung verschiedener Fiat-Währungen zwischen UR-Benutzern (keine Gebühren)",
+          "Jeder Token verfügt über entsprechende Fiat-Reserven bei einer Schweizer Bank"
+        ]
+      },
+      {
+        "title": "USDe Automatisiertes Ertragskonto",
+        "points": [
+          "Das Halten von USDe auf dem Konto generiert automatisch Zinsen",
+          "Erträge werden automatisch zu bestimmten wöchentlichen Zeiten dem Konto gutgeschrieben"
+        ]
+      }
+    ]
+  },
+  "sectionUpcoming": {
+    "title": "Zukünftige Dienste, die von UR eingeführt werden",
+    "items": [
+      "Direkter Umwandlungsdienst von Fiat-Währung in Krypto-Assets (On-Ramp)",
+      "Unterstützung für weitere Blockchain-Netzwerke: TON, Solana",
+      "Banküberweisungsauszahlung in Fiat-Währung unterstützt USD",
+      "Banküberweisungsauszahlung in Fiat-Währung unterstützt weitere Länder und Regionen",
+      "USDe-Autorisierung ohne MNT Gas (Warten auf Vertrags-Upgrade)"
+    ]
+  },
+  "sectionGetStart": {
+    "title": "Schritte zur Aktivierung Ihres UR-Kontos",
+    "cta": "Liste der von UR unterstützten Länder und Regionen prüfen",
+    "steps": [
+      {
+        "title": "Überprüfen der Berechtigung",
+        "items": [
+          "Mindestalter 18 Jahre",
+          "Besitz eines Reisepasses mit NFC-Chip-Scan-Unterstützung",
+          "Wohnhaft in einem von UR unterstützten Land (Prüflink unten)",
+          "Kein US-Bürger"
+        ]
+      },
+      {
+        "title": "Registrierung des UR-Kontos",
+        "items": [
+          "Registrieren Sie sich mit Google oder E-Mail",
+          "✔ Geben Sie den korrekten Verifizierungscode ein, die erfolgreiche Verifizierung erstellt das Konto"
+        ]
+      },
+      {
+        "title": "KYC abschließen",
+        "items": [
+          "Fragebogen ausfüllen",
+          "GPS-Ortung",
+          "NFC-Scan des Reisepasses",
+          "Gesichtsverifizierung"
+        ]
+      },
+      {
+        "title": "Auf Überprüfung warten",
+        "items": [
+          "Normalerweise 5 Minuten bis einige Stunden, maximal 3 Werktage",
+          "✔ Nach Abschluss der KYC-Überprüfung erhalten Sie ein Schweizer Bankkonto"
+        ]
+      },
+      {
+        "title": "Konto aktivieren (Debitkarten-Nummer erhalten)",
+        "items": [
+          "Zahlen Sie USDC im Gegenwert von mindestens 5 US-Dollar ein",
+          "✔ Sie können die Debitkarten-Nummer erhalten"
+        ]
+      }
+    ]
+  },
+  "sectionReferral": {
+    "title": "Freunde werben, jeder erhält eine Prämie von $5U",
+    "cta": "Jetzt registrieren und 5U Prämie verdienen",
+    "items": [
+      "Der Freund registriert sich über Ihren Empfehlungslink",
+      "Der Freund schließt die KYC-Identitätsprüfung ab",
+      "Der Freund schließt eine einzelne Ausgabe von ≥ $5U ab",
+      "Sie und Ihr Freund erhalten beide eine Prämie von $5U"
+    ]
+  },
+  "sectionAmbassador": {
+    "title": "Nur für Botschafter: Cashback-Aktion",
+    "subtitle": "(Abonnieren Sie bestimmte Plattformen, um zusätzliches Cashback zu erhalten)",
+    "titleCampaign": "Inhalt der Aktion",
+    "titleRules": "Aktionsregeln",
+    "titlePlatforms": "Unterstützte Plattformen für die Aktion",
+    "campian": [
+      "Nachdem sich der Benutzer registriert und KYC abgeschlossen hat",
+      "Ausgaben auf den entsprechenden Plattformen im ersten Monat erhalten 20 % Cashback.",
+      "Ausgaben auf den entsprechenden Plattformen im folgenden Monat erhalten 10 % Cashback."
+    ],
+    "rules": [
+      "Die Aktion läuft vom 01.11.2025 bis zum 31.12.2025",
+      "Nur Benutzer, die sich über einen Botschafter-Einladungscode oder Partnerkanäle registrieren, erhalten Cashback.",
+      "Die Cashback-Prämien werden vor dem Ende des folgenden Monats ausgezahlt;",
+      "Im Falle von Rückerstattungen oder Stornierungen wird das Cashback proportional abgezogen.",
+      "Bei Premium-Plänen oder Jahresabonnements kann jeder Benutzer maximal 10 US-Dollar Cashback erhalten.",
+      "Das Abonnement des qualifizierenden Tools muss während des Aktionszeitraums abgeschlossen werden.",
+      "Jede betrügerische, missbräuchliche oder anormale Transaktion führt zum Ausschluss.",
+      "UR behält sich das Recht auf die endgültige Auslegung der Aktionsänderungen, der Feststellung gültiger Transaktionen und der Risikokontrolle vor."
+    ],
+    "platforms": [
+      "ChatGPT Plus / Claude Pro",
+      "GitHub Copilot",
+      "Notion AI / Canva Pro",
+      "Replit / Cursor / Midjourney",
+      "RunPod / HuggingFace / Poe",
+      "Netflix / Spotify / Disney+",
+      "Apple TV+ / Amazon Prime Video"
+    ],
+    "cta": "Jetzt mit dem Botschafter-Einladungscode (urkeon) registrieren und an der Aktion teilnehmen"
+  },
+  "sectionDisclaimer": {
+    "tgTitle": "Bei Fragen wenden Sie sich bitte an die Telegram-Diskussionsgruppe:",
+    "tgGlobal": "Allgemeine Diskussionsgruppe",
+    "tgMandarin": "Mandarin-Diskussionsgruppe",
+    "disclaimer": "Bei Unklarheiten auf dieser Seite, ist der Inhalt der offiziellen Website",
+    "officialSite": "UR.APP",
+    "asMain": "maßgebend."
+  }
 }
