@@ -7,7 +7,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // 網站根 URL
-const BASE_URL = 'https://bykeon.com';
+const BASE_URL = 'https://ur.bykeon.com';
 
 // 目錄與 sitemap 路徑
 const WANT_DIR = path.resolve(__dirname, 'dist-seo');
